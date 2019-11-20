@@ -14,10 +14,11 @@ server.use('/',( request , response)=>{
 // application Q3 
 server.use ('/data' , (request , response)=>{
 let data = request.get('./data/friend.json') ;
-response.data.map(data=>)
+response.data.map(data=>
+    )
 
 
-})
+};
 
 
 // application Q4
